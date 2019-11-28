@@ -8,10 +8,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aus.asx</groupId>
-	<artifactId>lib-security</artifactId>
+	<artifactId>lib-commons</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Security</name>
-	<description>Library for addressing security concerns for spring-boot ASX plartform</description>
+	<description>Library for addressing security concerns for spring-boot ASX platform</description>
 
 	<dependencies>
 		<dependency>
@@ -22,5 +22,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
+		<dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
 	</dependencies>
 </project>
